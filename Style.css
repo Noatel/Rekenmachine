@@ -1,0 +1,85 @@
+
+#Display {
+    left:600px;
+    top:75px;
+    width:227px;
+    height:50px;
+    position: fixed;
+    background-color: white;
+    border: 1px solid dimgrey;
+
+
+
+}
+button {
+
+    width: 50px;
+    height: 30px;
+    background: white;
+    border: 1px solid dimgrey;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 7px 11px 0;
+    color: #888;
+    text-align: center;
+
+
+}
+
+.Border {
+    position: fixed;
+    height: 290px;
+    width: 327px;
+    top: 40px;
+    left: 552px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #888888;
+    border: 1px solid dimgrey;
+    background-color: lightgrey;
+    z-index: -1;
+}
+#EersteRij {
+    position: fixed;
+    top:151px;
+    left:625px;
+}
+#TweedeRij {
+    position: fixed;
+    top:184px;
+    left:625px;
+}
+#DerdeRij {
+    position: fixed;
+    top:217px;
+    left:625px;
+}
+#VierdeRij {
+    position: fixed;
+    top:285px;
+    left:564px;
+}
+
+body{
+    background-image: url("Miauw.jpg");
+
+}
+#Veld {
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    background-color: lightgrey;
+    border: 1px solid dimgrey;
+
+
+}
+#Rekenmachine {
+    position: fixed;
+    left : 290px;
+    top:120px;
+}
+#Test{
+    position: fixed;
+    left:290px;
+    top:180px;
+}
