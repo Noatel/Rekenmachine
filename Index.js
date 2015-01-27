@@ -2,12 +2,10 @@
     var  Display = document.getElementById("Display"), // Scherm van het rekenmachine
          Button = document.getElementsByClassName("Button"),
          Weg = document.getElementById("Clear"),
-
          Som = ["+","-","*"],
          EersteVariable = "",
          TweedeVariable = "",
          store = "";
-
 
     Weg.addEventListener("click", Clear);           // Voert functie Clear uit als je dr op klikt
 
